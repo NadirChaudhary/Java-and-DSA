@@ -1,0 +1,721 @@
+1. Core Java Programming Introduction of Java
+
+
+   1. Introduction to Java; features of Java
+
+   2. Comparison with C and C++
+
+   3. Download and install JDK/JRE (Environment variables set up)
+
+   4. The JDK Directory Structure
+
+   5. First Java Program through command prompt
+
+   6. First Java Program through Eclipse
+
+
+2. Data types and Operators
+
+
+   1. Primitive Datatypes, Declarations, Ranges
+
+   2. Variable Names Conventions
+
+   3. Numeric Literals, Character Literals
+
+   4. String Literals
+
+   5. Arrays(One dimensional; two- dimensional)
+
+   6. Array of Object References
+
+   7. Accessing arrays, manipulating arrays
+
+   8. Enumerated Data Types
+
+   9. Non-Primitive Datatypes
+
+   10.Defining a class, variable and method in Java
+
+   11. Method Signature; method calls
+
+   12. Expressions in Java; introduction to various operators
+
+   13. Assignment Operator
+
+   14, Arithmetic Operators
+
+   15. Relational Operators
+
+   16. Logical Operators
+
+   17. Conditional Operators
+
+   18. Operator Precedence
+
+   19. Implicit Type Conversions
+
+   20. Upcasting and downcasting
+
+   21. Strict typing
+
+   22. Type conversion
+
+
+3. Control Flow statements
+
+
+   1, Statements and it's various categories in Java
+
+   2. if, if-else, if-else-if
+
+   3. switch case
+
+   4. for statement (both flavours traditional and enhanced for)
+
+   5. while and do-while loops
+
+   6. The continue Statement; labelled continue statement
+
+   7. The break Statement; labelled break statement
+
+   8. return statement
+
+
+4. OOPS and its application in Java
+
+
+   1. Classes and Objects
+
+   2. Defining a class;Defining instance variables and methods
+
+   3. Creating objects out of a class
+
+   4. Method calls via object references
+
+   5. Abstraction
+
+   6. Interfaces and Abstract classes
+
+   7. Abstract and non-abstract methods
+
+   8. Inheritance
+
+   9. extends and implements keywords in Java
+
+   10. Super class and Sub class
+
+   11. this keyword, super keyword in Java for inheritance
+
+   12. Concrete classes in Java
+
+   13. Polymorphism
+
+   14. Compile time polymorphism -- Overloading of methods
+
+   15. Run time polymorphism -- Overriding of methods
+
+   16. Method Overriding rules and method overloading rules
+
+   17. Introduction to Object class and it's methods
+
+   18. Encapsulation
+
+   19. Protection of data
+
+   20. Java Bean, POJO
+
+   21. Getters/Setters
+
+   22. Memory management in Java
+
+   23. Heap
+
+   24. Stack
+
+
+5. Packages
+
+
+   1. Need for packages
+
+   2. What are packages; package declaration in Java
+
+   3. Import statement in Java
+
+   4. How do packages resolve name clashes?
+
+
+6. Miscellaneous
+
+
+   1. Var-Args
+
+   2. Reference variables, local variables, instance variables
+
+   3. Memory allocations to variables
+
+   4. Double equals operator(==) operator for primitives and objects
+
+   5. toString() method on an object
+
+
+7. Statics
+
+
+   1. Static variables and methods
+
+   2. Static imports
+
+   3. Static initialization blocks; instance intialization blocks
+
+   4. Static concept in inheritance
+
+
+8. Constructors
+
+
+   1. What are Constructors?
+
+   2. Properties of Constructors
+
+   3. Default and Parameterized Constructors
+
+   4. Rules for constructor implementation
+
+   5. Constructor Chaining
+
+   6. this call; super call for constructors
+
+   7. Constructors for Enumerated Data Types
+
+   8. Constructors concept for Abstract classes and interfaces\
+
+
+9. Exceptions in Java
+
+
+   1. What are Exceptions?
+
+   2. Need for exceptions
+
+   3. How can Exceptions be coded in Java?
+
+   4. API heirarchy for Exceptions
+
+   5. Types of Exceptions
+   
+   6. Keywords in Exception API: try, catch, finally, throw, throws
+
+   7. Rules for coding Exceptions
+
+   8. Declaring Exceptions
+
+   9. Defining and Throwing Exceptions
+
+   10. Errors and Runtime Exceptions
+
+   11. Custom Exception
+
+   12. Assertions
+
+   13. What are Assertions?
+
+   14. Enabling and disabling assertions in development environment
+
+
+10. Strings in Java
+
+
+   1. What are Strings?
+
+   2. String heap memory and Constant Pool memory
+
+   3. Immutability in Strings
+
+   4. String creation on heap and constant pool
+
+   5. Method APIs on String; operations on Strings
+
+   6. Mutability of String Objects - StringBuilder and StringBuffer
+
+   7. Splitting of Strings and StringTokenizer class
+
+
+11. Collection Framework in Java
+
+
+   1. The Collections Framework
+
+   2. The Set Interface
+
+   3. Set Implementation Classes
+
+   4. The List Interface
+
+   5. List Implementation Classes
+
+   6. The Map Interface
+
+   7. Map Implementation Classes
+
+   8. Queue Interface
+
+   9. Queue Implmentation classes
+
+   10. Utility classes
+
+   11. Sorting collections using utility methods
+
+   12. equals() and hashCode contract in Java collections
+
+   13. overriding equals and hashCode methods in Java
+
+   14. New Collections added in Java 1.6
+
+   15. Primitive wrapper classes and all its method APIs
+
+
+12. Generics
+
+
+   1. Generics for Collections
+
+   2. Generics for class
+
+   3. Generics for methods
+
+
+13. Input-Output in Java
+
+
+   1. What is a stream?
+
+   2. Overview of Streams
+
+   3. Bytes vs. Characters
+
+   4. Overview of the entire Java IO API
+
+   5. Reading a file; writing to a file usinf various APIs
+
+   6. Reading User input from console
+
+   7. PrintWriter Class
+
+
+14. Serialization
+
+
+   1. Object Serialization
+
+   2. Serializable Interface
+
+   3. Serialization API
+
+   4. ObjectInputStream and ObjectOutput
+
+   5. Transient Fields
+
+   6. readObject and writeObject
+
+
+15. Inner Classes
+
+
+   1. Inner Classes
+
+   2. Member Classes
+
+   3. Local Classes
+
+   4. Anonymous Classes
+
+   5. Static Nested Classes
+
+
+16. Threads in Java
+
+
+   1. Non-Threaded Applications
+
+   2. Threaded Applications
+
+   3. Process based multitasking Vs Thread based multitasking
+
+   4. Thread API in Java
+
+   5. Creating Threads
+
+   6. States of a Thread
+
+   7. Sychronization for threads; static and non-static synchronized methods; blocks; concept of object and class locks
+
+   8. Coordination between threads - wait, notify and notifyAll methods for inter-thread communication
+
+
+17. Applets
+
+
+   1. What are applets?
+
+   2. Need for Applets
+
+   3. Different ways of running an applet program
+
+   4. Applet API heirarchy
+
+   5. Life Cycle of an applet
+
+   6. Even Handlers for applets, mouse events, click events
+
+
+18. Swing GUI
+
+
+   1. Introduction to AWT
+
+   2. Introduction to Swing GUI
+
+   3. Advantages of Swing over AWT
+
+   4. Swing API
+
+   5. Swing GUI Components
+
+   6. Event Handlers for Swing
+
+   7. Sample Calculator application using Swing GUI and Swing Event handling
+
+
+19. JDBC
+
+
+   1. What is JDBC; introduction
+
+   2. JDBC features
+
+   3. JDBC Drivers
+
+   4. Setting up a database annd cretaing a schema
+
+   5. Writing JDBC code to connect to DB
+
+   6. CRUD Operations with JDBC
+
+   7. Statement types in JDBC
+
+   8. Types of Rowset, ResultSet in JDBC
+
+
+20. Access Modifers in Java
+
+
+   1. What are access modifiers?
+
+   2. Default
+
+   3. Protected
+
+   4. Private
+
+   5. Public
+
+
+21. Debugging of Java Programs in Eclipse.
+
+
+   ADVANCED JAVA Syllabus:
+
+   Servlets and JSPs
+
+
+1. Basics of a Web application
+
+What is a web application?
+
+What is a web client and web server?
+
+How do client and server communicate?
+
+HTTP protocol basics
+
+HTML language basics
+
+What is a TCP/IP port, URL?
+
+Need for a Web Container
+
+2. Web Contaner and Web Application Project Set up
+
+To set up Tomcat Container on a machine
+
+To set up a Servlets JSP project in Eclipse
+
+To configure dependency of Servlet JSP APIs
+
+Web application project struture
+
+3. Servlets
+
+What are Servlets?
+
+What can they do? Why are they needed?
+
+How do Servlets look in code?
+
+HTTP Methods; GET, POST, PUT, DELETE, TRACE, OPTIONS
+
+GET/POST request; differences between the two
+
+Servlet Lifecycle
+
+Servlet Context and Servlet Config
+
+Forwarding and Redirection of requests
+
+4. Session Management
+
+What is a session?
+
+Why is it required?
+
+How to get a session?
+
+Session information passing between client and server
+
+Sesssion information passing mechanisms - Cookies, Rewriting
+
+How to destroy a session
+
+5. JSPs
+
+Introduction to JSP an dneed for JSPs
+
+Basic HTML tags
+
+JSP Lifecycle
+
+6. JSP Elements
+
+Scriptlets
+
+Expressions
+
+Declarations
+
+Significance of above elements and fitment into the JSP Lifecycle
+
+What are Directives in JSP?
+
+Page Directive
+
+Include Driective
+
+Taglib Directive
+
+7. JSP Tag library
+
+JSP Standard Actions
+
+Expression Language
+
+JSTL basics and it's usage
+
+Need for Custom Tag Library
+
+Custom Tag Library implementation
+
+Struts Framework (version 2.x)
+
+1. Basics of MVC
+
+What is MVC?
+
+MVC Type1 and Type2 architecture
+
+Why Struts framework?
+
+Struts 1 overview
+
+Struts 1 and Struts 2 comparison
+
+2. Struts 2 Architectutre
+
+Architecture Diagram explanation of following components:
+
+Components of Model, Views and Controller in Struts Framework
+
+Interceptors
+
+Model/Action classes
+
+Value Stack
+
+OGNL
+
+Introduction to configurations; framework and application architecture
+
+Declarative and Annotations configuration approaches
+
+3. Struts 2 set up and first Action class
+
+Download JAR files
+
+Struts 2 project build up and Configuration files
+
+To build Action class
+
+To intercept an HTTP request via Struts2 framework using Action class
+
+Defining data and business logic in Action class
+
+Preparing and Forwarding control to Views
+
+4. Struts 2 Interceptors
+
+What are Interceptors
+
+Responsibilities of an Interceptor
+
+Mechanism of Interceptor calling in Struts 2
+
+Defining Interceptors
+
+Defining Interceptor stacks
+
+Defining Custom Interceptors
+
+5. Struts 2 Tag Library
+
+Introduction to tag library of Struts 2 and it's usage
+
+6. Struts 2 Validations
+
+Validations using Validateable interface
+
+Workflow interceptor mechanism for validations
+
+Validations using Validateable interface
+
+Validation Framework introduction and architecture
+
+Validating user input with above two mechanisms
+
+7. Struts 2 Tiles Frameworks
+
+Introduction to Tiles in a page
+
+Struts2 Tiles framework introduction
+
+Defining tiles.xml file
+
+Configuring pages for tiles
+
+A complete Tiles example with Struts2
+
+Hibernate Framework (version 3.x)
+
+1. Introduction
+
+What is ORM principle?
+
+Why ORM?
+
+ORM implementations
+
+2. Hibernate Architecture
+
+Introduction to Hibernate
+
+Hibernate Architecture
+
+What are Peristent classes?
+
+3. Hibernate CRUD
+
+Setting up Hibernate project
+
+Configuring all JARs and XML files
+
+Setting up connection to DB using Hibernate
+
+Performing basic CRUD operations using Hibernate API
+
+Object Identity; Generator type classes
+
+Using SQL with Hibernate
+
+Using HQL
+
+Using Criteria queries
+
+4. Mapping Collections and Associations
+
+To define sets, mas, lists in Hibernate
+
+Association Mappings: 1. One to one
+
+2 One to many
+
+3 Many to one
+
+4 Many to many
+
+5. Hibernate Caching
+
+What is caching?
+
+What are the types of caching in Hibernate?
+
+Explanation of various caching mechanisms in Hibernate
+
+6. Using Hibernate Annotations (if time permits)
+
+Sample example of using Hibernate Annotations
+
+Spring Framework (version 3.x)
+
+1. Introduction to spring
+
+What is Spring?
+
+Spring Architecture explanation and all it's components
+
+2. Introduction to all modules of spring
+
+Spring Bean Factory
+
+Spring Application Context
+
+Spring DI
+
+Spring AOP
+
+Spring Integration; Spring messaging, Spring JMS
+
+Spring MVC
+
+Spring DAO
+
+3. Setting up spring
+
+Setting up of Spring framework
+
+Download JARs
+
+Configure XML files
+
+4. Dependency Injection
+
+What is Dependency Injection?
+
+How is it implemented using Spring Framework?
+
+Bean Wiring mechanisms in Spring
+
+5. Spring AOP
+
+What is Spring AOP?
+
+Implementation of Spring AOP
